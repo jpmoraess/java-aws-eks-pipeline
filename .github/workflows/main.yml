@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Octopus CLI
-        uses: OctopusDeploy/install-octopuscli@v1
+        uses: OctopusDeploy/install-octopus-cli-action@v3
         with:
           version: latest
 
