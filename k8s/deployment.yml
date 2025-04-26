@@ -51,7 +51,7 @@ spec:
     spec:
       containers:
         - name: java-aws-eks-pipeline
-          image: java-aws-eks-pipeline:latest
+          image: 443370689665.dkr.ecr.us-east-1.amazonaws.com/jpmoraess:6c6536b0916a1d13b6e078807eaccc2c1d95e1d9
           env:
             - name: SPRING_PROFILES_ACTIVE
               value: "prd"
